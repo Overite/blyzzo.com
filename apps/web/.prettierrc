@@ -1,0 +1,10 @@
+{
+  "printWidth": 100,
+  "htmlWhitespaceSensitivity": "ignore",
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}
