@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lightgallery": "^2.7.2",
+    "sass": "^1.77.6"
+  }
+}

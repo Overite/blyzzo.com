@@ -7,26 +7,23 @@ import { cn } from '@/lib/utils'
 
 const HeroBanner = () => {
   return (
-<section className=' px-4 sm:px-6 lg:px-8'>
+<section className=''>
     <div
-      className="absolute inset-0 mx-auto max-w-screen-xl lg:mx-16 px-4 sm:px-6 lg:px-8 h-[88vh] mt-20 bg-black/45"
-    >
+      className="absolute inset-0  mx-auto max-w-screen-xl lg:mx-16 px-4 sm:px-6 lg:px-8 h-[88vh]">
   <div className='relative w-full -z-20 bg-black/30'>
     <Image src={hero} 
     alt='macbook accessories'
-    className='h-[88vh] object-cover w-full'
+    className='h-[597px] object-cover w-full'
     />
   </div>
     </div>
-
   <div
-    className="relative z-10 mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
+    className="relative mx-auto max-w-screen-xl -z-20 bg-black/30 px-4 py-32 sm:px-6  lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
   >
     <div className="max-w-4xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
         shop title
       </h1>
-
       <p className="mt-4 max-w-6xl text-white sm:text-xl/relaxed">
       Discover innovative tech gadgets at unbeatable prices for everyday use.
       </p>
